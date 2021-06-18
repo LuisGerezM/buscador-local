@@ -1,0 +1,19 @@
+* {
+  font-family: "Benne", serif;
+}
+
+.search {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.search--center {
+  justify-content: center;
+  height: 100vh;
+}
+
+.search--top {
+  justify-content: center;
+  align-items: flex-start;
+}

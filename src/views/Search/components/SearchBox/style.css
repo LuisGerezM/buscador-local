@@ -1,0 +1,59 @@
+/* Es el archivo que va a estilizar a mi SearchBox */
+
+.search-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.search-box-title {
+  color: floralwhite;
+}
+
+.search-box-buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.search-box-input {
+  height: 1.5em;
+  border-radius: 15em;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.font {
+  font-size: 16px;
+}
+
+.btn-buscar {
+  background-color: #046a8a;
+  color: #ffffff;
+  width: 8em;
+  height: 2.5em;
+  border-radius: 5em;
+  padding: 13px 5px;
+  margin: 0px auto;
+  cursor: pointer;
+}
+
+.btn-buscar:hover {
+  background-color: #023241;
+}
+
+.btn-cerrar {
+  background-color: #ce4040;
+  color: #ffffff;
+  width: 8em;
+  height: 2.5em;
+  border-radius: 5em;
+  padding: 13px 5px;
+  margin: 0 auto;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.btn-cerrar:hover {
+  background-color: #7e2626;
+}
